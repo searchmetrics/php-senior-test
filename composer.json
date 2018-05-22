@@ -1,0 +1,27 @@
+{
+    "name": "searchmetrics/php-senior-test",
+    "description": "Contains the sources for the Senior Backend Developer position tests.",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Searchmetrics GmbH",
+            "homepage": "https://www.searchmetrics.com/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Searchmetrics\\SeniorTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Searchmetrics\\SeniorTest\\Tests\\": "tests/"
+        }
+    }
+}
