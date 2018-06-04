@@ -21,7 +21,7 @@ results of others, and to protect everyone's privacy.
 ---
 
 - **[x]** Implement the missing code to make the tests run successfully
-- **[x]** Provide and implement at least one (1) other implementation of the `UrlIdGenerator` interface, including tests - Cache, DB, local/remote filesystem, external API - feel free to mock these!
+- **[x]** Provide and implement at least one (1) other implementation of the `UrlIdGenerator` interface able to generate the same IDs, also including tests - Cache, DB, local/remote filesystem, external API - feel free to mock these!
 - **[o]** Provide a runnable environment of some kind (VM, Docker) in which the tests are still running successfully
 - **[o]** Extend the environment to be able to run an integration test with your implementation against it and write that integration test
 - **[.]** Extend the environment further with a small HTTP service allowing consumers to look up the URL ID for a URL they provide
