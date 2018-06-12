@@ -18,6 +18,14 @@ results of others, and to protect everyone's privacy.
 - Tasks marked with **[o]** are optional, but appreciated if completed
 - Tasks marked with **[.]** are bonuses
 
+## What is a URL ID?
+A URL ID is a bigint value calculated from an URL string, using the following statement in SQL:
+
+```sql
+SELECT CAST(CONV(SUBSTRING(SHA1("http://google.de/hh"), 1, 16), 16, 10) AS SIGNED);
+/* => 10996426193249918095 */
+```
+
 ---
 
 - **[x]** Implement the missing code to make the tests run successfully
